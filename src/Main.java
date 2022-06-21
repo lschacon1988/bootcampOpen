@@ -29,15 +29,15 @@ public class Main {
      break;
     }
     case "otoño":{
-      System.out.println("Estamos en: "+ estacion);
+      System.out.println("Estamos en otoño");
       break;
     }
     case "verano":{
-      System.out.println("Estamos en: "+ estacion);
+      System.out.println("Estamos en verano ");
       break;
     }
     case "invierno":{
-      System.out.println("Estamos en: "+ estacion);
+      System.out.println("Estamos en invierno ");
       break;
     }
     default:{
