@@ -21,7 +21,31 @@ public class Main {
     System.out.println("esta es la variable numeroFor: "+ numeroFor);
   }
   ///////////////////////////////
-    
+   String estacion= "verano";
+
+  switch (estacion){
+    case "primavera":{
+     System.out.println("Estamos en: "+ estacion);
+     break;
+    }
+    case "otoño":{
+      System.out.println("Estamos en: "+ estacion);
+      break;
+    }
+    case "verano":{
+      System.out.println("Estamos en: "+ estacion);
+      break;
+    }
+    case "invierno":{
+      System.out.println("Estamos en: "+ estacion);
+      break;
+    }
+    default:{
+      System.out.println("Esto no es una estacion valida ");
+      break;
+    }
+
+  }
 
   }
   
