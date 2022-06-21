@@ -6,11 +6,9 @@ public class Main {
     miCoche.sumarPuerta();
     System.out.println("El numero de puertas es: " + miCoche.puerta);
   }
-
   public static int suma(int a, int b, int c) {
     return a + b + c;
   }
-
 }
 
 class Coche {
