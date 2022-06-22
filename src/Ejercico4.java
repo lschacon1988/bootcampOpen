@@ -4,23 +4,27 @@ public class Ejercico4 {
   int contadorDoWhile = 1;
   int numeroif = 5;
   {
+    /////////condicionales///////////
     if (numeroif >= 0) {
       System.out.println("Este numero es positivo");
     } else {
       System.out.println("Este numero es negativo");
     }
+    /////////bucle while///////////
     while (contador < 3) {
       contador++;
       System.out.println("El valor de contador es: " + contador);
     }
-
+    /////////bucle do while///////////
     do {
       System.out.println("Contador do while vale: " + contadorDoWhile);
 
     } while (contadorDoWhile <= 0);
+    //////// bucle for/////////////////////
     for (int numeroFor = 0; numeroFor <= 3; numeroFor++) {
-      System.out.println("Esta es la variable for"+ numeroFor);
+      System.out.println("Esta es la variable for" + numeroFor);
     }
+    /////////switch///////////
 
     switch (estaciones) {
       case "otoño":
