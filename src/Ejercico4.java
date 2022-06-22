@@ -18,6 +18,9 @@ public class Ejercico4 {
       System.out.println("Contador do while vale: " + contadorDoWhile);
 
     } while (contadorDoWhile <= 0);
+    for (int numeroFor = 0; numeroFor <= 3; numeroFor++) {
+      System.out.println("Esta es la variable for"+ numeroFor);
+    }
 
     switch (estaciones) {
       case "otoño":
